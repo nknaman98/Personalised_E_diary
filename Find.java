@@ -151,7 +151,7 @@ public class Find extends JFrame implements ActionListener {
     	String texxt=txt.getText().toLowerCase();
     	
     	select_start = KMP(pat, texxt);
-    	JOptionPane.showMessageDialog(null, "Could not find \"" + textF.getText() + "\"!");
+    
           if(select_start == -1)
         {
             startIndex = 0;
